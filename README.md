@@ -12,8 +12,8 @@ To install **wls-api.js**, run:
 # Example Usage
 
 ```js
-const WlsAPI = require('wls-api.js');
-const wls = new WlsAPI
+const wlsApiJs = require('wls-api.js');
+const wls = new wlsApiJs
 
 wls.RegByName("you_i_died").then((result => console.log(result)));
 ```
