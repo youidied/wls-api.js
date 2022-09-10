@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 
-class WlsAPI {
+class wlsApiJs {
   /**
    * Get User Data
    * @param {String} name  WLs name of the User
@@ -54,4 +54,4 @@ class WlsAPI {
 
 }
 
-module.exports = WlsAPI;
+module.exports = wlsApiJs
